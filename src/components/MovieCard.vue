@@ -11,6 +11,7 @@ import { Movie } from '../models/Movie.js';
 
 export default {
     props: {
+        // NOTE movieProp is the name of the prop that we are binding to on the home page
         movieProp: {type: Movie, required:true}
     },
     setup() {
